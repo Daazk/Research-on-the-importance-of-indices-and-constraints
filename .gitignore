@@ -1,0 +1,19 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Локальные данные PostgreSQL
+postgres_data/
+pgdata/
+
+# Дампы и логи
+*.dump
+*.backup
+*.log
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
